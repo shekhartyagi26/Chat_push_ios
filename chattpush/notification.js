@@ -2,7 +2,7 @@ var http = require('http');
 var apn = require('apn');
 var url = require('url');
 
-var deviceToken = '5a41a9b0b5d2ce7833cf4957f26850cfaee4df7ff74ea4eae74339be2c095668';  // ** NEED TO SET TO YOURS
+var deviceToken = 'deviceToken';  // ** NEED TO SET TO YOURS
 // var myDevice = new apn.Device(deviceToken);
 
 var note = new apn.Notification();
